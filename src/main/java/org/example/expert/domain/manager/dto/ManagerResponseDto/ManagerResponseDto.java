@@ -6,8 +6,8 @@ import org.example.expert.domain.user.dto.UserResponseDto.UserResponseDto;
 @Getter
 public class ManagerResponseDto {
 
-    private final Long id;
-    private final UserResponseDto user;
+    private Long id;
+    private UserResponseDto user;
 
     public ManagerResponseDto(Long id, UserResponseDto user) {
         this.id = id;

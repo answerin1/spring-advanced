@@ -20,7 +20,7 @@ public class CommentController {
     private final CommentService commentService;
 
     @PostMapping("/todos/{todoId}/comments")
-    public ResponseEntity<CommentSaveResponseDto> saveComment(
+    public ResponseEntity<CommentSaveResponseDto> SaveComment(
             @Auth AuthUserDto authUserDto,
             @PathVariable long todoId,
             @Valid @RequestBody CommentSaveRequestDto commentSaveRequestDto
