@@ -1,4 +1,4 @@
-package org.example.expert.domain.comment.dto.request;
+package org.example.expert.domain.comment.dto.CommentRequestDto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CommentSaveRequest {
+public class CommentSaveRequestDto {
 
     @NotBlank
     private String contents;
